@@ -1,0 +1,45 @@
+
+
+.search_container{
+    margin-top: 77px;
+}
+
+.search_text_container{
+  display: flex;
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+.search_text{
+  margin-left: 25px;
+}
+.search_form_container{
+margin-top: 37px;
+}
+
+.search_form{
+  display:flex;
+}
+
+.search_input{
+  display: block;
+  width: 100%;
+  border: none;
+  /* border-color: #F0F0F4; */
+  border-radius: 5px;
+  background-color: #F0F0F4;
+  font-size: 16px;
+  cursor: pointer;
+  /* text-align: center; */
+}
+
+.search_button{
+  padding:  17px 40px;
+  background: #1C62CD; /* Синий цвет фона */
+  color: #fff; /* Белый цвет текста */
+  border: none; /* Убираем рамку */
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}

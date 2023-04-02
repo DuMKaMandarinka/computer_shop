@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './pages/MainComponents/Header.js';
+import Menu from './pages/MainComponents/Menu.js';
+import Slider from './pages/MainComponents/Content/Slider.js'
+import CardSale from './pages/MainComponents/Content/CardSile.js';
+import './App.css'
+import Search from './pages/MainComponents/MainPage/Search.js';
+import ChooseGoods from './pages/MainComponents/MainPage/ChooseGoods.js';
+import Popular from './pages/MainComponents/MainPage/Popular.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Menu/>
+      <div className="container_sliger_cardsile">
+      <Slider/>
+      <CardSale/>
+      </div>
+      <Search/>
+      <ChooseGoods/>
+      <Popular/>
     </div>
   );
 }

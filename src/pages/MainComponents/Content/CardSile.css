@@ -1,0 +1,104 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    min-width: 265px;
+    border: 1px solid #CDCDCD;
+    border-radius: 2px;
+}
+.card_sile_top{
+display: flex;
+justify-content: space-between;
+margin-bottom:7px;
+}
+.sile_text{
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ min-width: 90px;
+ min-height: 30px;
+ background-color: #1C62CD;
+}
+.sile_price{
+    color: #1C62CD;
+    font-size: 27px;
+    line-height: 32px;
+    margin-right: 7px;
+}
+.sile_price:after {
+    content: "\20BD";
+    padding-left: 5px;
+}
+.last_price_container{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4px;
+}
+
+.last_price{
+    display: inline-block;
+    color:#C4C4C4
+}
+
+.last_price_number::after{
+    content: "\20BD";
+    padding-left: 4px;
+}
+.line_last_price{
+  position: relative;
+  bottom:15px;
+}
+.line_last_price hr{
+    border: none; /* Убираем границу */
+    background-color: #C4C4C4; /* Цвет линии */
+    color: #C4C4C4; /* Цвет линии для IE6-7 */
+    height: 0.5px; /* Толщина линии */
+    transform:rotate(170deg);
+}
+.sile_text label{
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 15px;
+}
+.image_card_sile_container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7px;
+}
+.image_card_sile{
+    align-self: center;
+}
+.image_card_sile img{
+    max-width: 100%;
+} 
+
+.sile_product_name{
+    flex: 1 1 auto;
+    align-self: center;
+    color: #2F3035;
+    font-weight:700;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.card_sile_bottom{
+   display: flex;
+   flex-direction: column;
+   flex:1 1 auto;
+   background-color: #F0F0F4;
+   margin-top: 7px;
+   align-items: center;
+   justify-content: center;
+}
+.card_sile_bottom_text{
+    color: #2F3035;
+    font-weight:400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.card_sile_bottom_date{
+    color:#1C62CD;
+    font-weight:700;
+    font-size: 18px;
+    line-height: 21.6px;
+}

@@ -1,0 +1,33 @@
+
+.navbar-container{
+}
+
+.navbar {
+    justify-content: space-between;
+    background-color: #F0F0F4;
+    display: flex;
+    margin:auto;
+    text-align: center;
+    list-style-type: none;
+    white-space: nowrap;
+  }
+  .navbar li { display: inline;
+  }
+
+  .navbar a:first-child{
+    /* padding: 5px 0px; */
+  }
+
+  .navbar a {
+    font-size: 15px;
+    padding: 15px 0px;
+    color:#2F3035;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+  }
+  .navbar a:hover {
+    /* border-radius: 20px 5px; */
+    background-color: #0066FF;
+  }
